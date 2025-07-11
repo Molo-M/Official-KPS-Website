@@ -8,10 +8,29 @@
     .nav_link {
         @apply hover:font-bold;
     }
+
+    .reason_container {
+        @apply flex flex-col items-center sm:h-50 mb-8;
+    }
+
+    .reason_container h2 {
+        @apply text-2xl;
+    }
+
+    .reason_container img {
+        @apply sm:h-70 mb-5;
+    }
+
+    .top_cont h2 {
+        @apply text-xl font-medium;
+    }
+
+    /* END OF PAGE 1: HOME PAGE ---------------------------------------------------------- */
 }
 
 @layer utilities {
     li {
         @apply text-white;
     }
+    /* END OF PAGE 1: HOME PAGE ---------------------------------------------------------- */
 }
