@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics</title>
+    <!-- CSS link -->
+    <link rel="stylesheet" href="src/output.css">
+    <!-- Google Fonts Poppins link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="font-[Poppins]">
+    <!-- Section 1: navigation Bar -->
+    <header class="bg-green-700 top-0 sticky">
+        <nav class="flex justify-between items-center w-[92%] mx-auto">
+            <!-- 1.1: The Logo  -->
+            <div class="bg-white border rounded-sm">
+                <img class="w-16" src="src/img/epr-logo.png" alt="EPR Logo">
+            </div>
+            <!-- 1.2: The navigation links -->
+            <div class="nav_container hidden sm:flex">
+                <ul class="flex flex-col sm:flex-row sm:items-center sm:gap-[4vw] gap-8">
+                    <li>
+                        <a class="nav_link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="#">Academics</a>
+                    </li>                  
+                    <li>
+                        <a class="nav_link" href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav_link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 1.3: The news link  -->
+             <div class="flex items-center gap-6">
+                <button id="news">News</button>
+                <ion-icon onclick="toggleMenu(this)" class="text-3xl cursor-pointer sm:hidden" name="menu-outline"></ion-icon>
+             </div>
+        </nav>
+    </header>
+    <!-- Section 2: Moving pictures -->
+    <!-- Section 3: Academics info -->
+     <div class="academics_info w-full sm:p-10 flex flex-col items-center sm:gap-6">
+        <!-- 3.1 Overview -->
+        <div class="overview">
+            <h1>Curriculum Overview</h1>
+            <p>Our curriculum blends modern-national standards with holistic learning. Emphasizing critical thinking, collaboration, and values-driven education.</p>
+        </div>
+        <!-- 3.2 Subjects offered -->
+        <div class="overview">
+            <h1>Subjects Offered</h1>
+            <div class="subjects_overview">
+                <div class="left_subjects">
+                    <!-- Individual subject container -->
+                    <div class="subject_container">
+                        <ion-icon name="book-outline"></ion-icon>
+                        <div class="subj_content">
+                            <h2>English, French and Kinyarwanda</h2>
+                            <p>Phonetics, grammar, reading and writing fluency</p>
+                        </div>
+                    </div>
+                    <!-- Individual subject container -->
+                    <div class="subject_container">
+                        <ion-icon class="text-5xl" name="flask-outline"></ion-icon>
+                        <div class="subj_content">
+                            <h2>Science & Nature Studies</h2>
+                            <p>Nature, health, simple experiments and environmental awareness</p>
+                        </div>
+                    </div>
+                    <!-- Individual subject container -->
+                    <div class="subject_container">
+                        <ion-icon name="earth-outline"></ion-icon>
+                        <div class="subj_content">
+                            <h2>Social Studies & Civics</h2>
+                            <p>Community, culture, history and basic citizenship</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_subjects">
+                    <!-- Individual subject container -->
+                    <div class="subject_container">
+                        <ion-icon name="star-outline"></ion-icon>
+                        <div class="subj_content">
+                            <h2>Faith-Based Education</h2>
+                            <p>Biblical stories, life lessons, morals and values</p>
+                        </div>
+                    </div>
+                    <!-- Individual subject container -->
+                    <div class="subject_container">
+                        <ion-icon name="color-palette-outline"></ion-icon>
+                        <div class="subj_content">
+                            <h2>Art, Music & Sports</h2>
+                            <p>Community, culture, history and basic citizenship</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3.3 Class levels -->
+        <div class="overview">
+            <h1>Class Levels</h1>
+            <div class="subjects_overview">
+                <div class="left_subjects">
+                        <!-- Individual subject container -->
+                        <div class="subject_container">
+                            <div class="subj_content">
+                                <h2>Nursery (Baby-Top Class)</h2>
+                                <p>Play-based learning and foundational skills</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="right_subjects">
+                        <!-- Individual subject container -->
+                        <div class="subject_container">
+                            <div class="subj_content">
+                                <h2>Primary 1-6 (P1-P6)</h2>
+                                <p>Building strong foundations in reading, writing, math, and critical thinking</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3.4 Learning Approach  -->
+        <div class="overview">
+            <h1>Learning Approach</h1>
+            <p>At Kabuga Presbyterian School, we believe children learn best through active engagement. Our approach blends classroom teaching with outdoor exploration, hands-on activities, and faith-based values to nurture both academic and personal growth.</p>
+        </div>
+    </div>
+    <!-- Section 4: The Footer  -->
+    <!-- Links to js scripts that will be helpful to us: -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
