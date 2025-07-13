@@ -13,7 +13,7 @@
 </head>
 <body class="font-[Poppins]">
     <!-- Section 1: navigation Bar -->
-    <header class="bg-green-700 top-0 sticky">
+    <header class="bg-green-700 top-0 sticky z-10">
         <nav class="flex justify-between items-center w-[92%] mx-auto">
             <!-- 1.1: The Logo  -->
             <div class="bg-white border rounded-sm">
@@ -43,7 +43,24 @@
              </div>
         </nav>
     </header>
-    <!-- Section 2: Moving pictures -->
+    <!-- Section 2: Image Slider -->
+    <div class="slider_container w-full flex items-center justify-center">
+        <div class="relative w-full sm:w-[44%] max-h-[500px] overflow-hidden">
+            <div id="slider" class="flex transition-transform duration-700 ease-in-out">
+                <img src="src/img/primaryschool_1.jpg" class="w-full flex-shrink-0 object-cover" alt="Slide 1" />
+                <img src="src/img/playing_football.jpg" class="w-full flex-shrink-0 object-cover" alt="Slide 2" />
+                <img src="src/img/playing_students.jpeg" class="w-full flex-shrink-0 object-cover" alt="Slide 3" />
+            </div>
+
+            <!-- 2.2 Navigation buttons -->
+            <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white hover:bg-purple-300 p-2">
+                &#10094;
+            </button>
+            <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white hover:bg-purple-300 p-2">
+                &#10095;
+            </button>
+        </div>
+    </div>
     <!-- Section 3: Academics info -->
      <div class="academics_info w-full sm:p-10 flex flex-col items-center sm:gap-6">
         <!-- 3.1 Overview -->
