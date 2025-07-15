@@ -80,6 +80,23 @@
     .map h1:hover {
         @apply text-blue-700;
     }
+    /* END OF PAGE 3: CONTACT US ---------------------------------------------------------- */
+
+    .news_item {
+        @apply py-2 px-3 bg-gray-300 text-black rounded-xl flex flex-col gap-2 px-3;
+    }
+
+    .news_item h1 {
+        @apply text-base sm:text-2xl font-bold;
+    }
+
+    .news_item p {
+        @apply text-sm sm:text-base text-gray-900;
+    }
+
+    .news_item a {
+        @apply text-sm sm:text-base hover:underline font-semibold;
+    }
 }
 
 @layer utilities {
