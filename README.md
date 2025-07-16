@@ -5,6 +5,9 @@ A website that allows prospective parents and visitors to find and read about th
 ### 🔧 Tech Stack
 
 * `HTML + TailwindCSS + JS`
+
+---
+View live website here: [https://molo-m.github.io/Official-KPS-Website/](https://molo-m.github.io/Official-KPS-Website/)
 ---
 
 ## 🛠 Project Structure
